@@ -202,5 +202,6 @@
     <Build Include="Security\Production.sql" />
     <Build Include="Security\Sales.sql" />
     <Build Include="Security\Stats.sql" />
+    <Build Include="Sales\GetCustomerOrders.sql" />
   </ItemGroup>
 </Project>
