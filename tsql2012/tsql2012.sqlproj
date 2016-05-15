@@ -132,6 +132,7 @@
     <Folder Include="Sales\Views\" />
     <Folder Include="dbo\Functions\" />
     <Folder Include="Security\" />
+    <Folder Include="Sales\Stored Procedures" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="HR\Tables\Employees.sql">
@@ -202,6 +203,9 @@
     <Build Include="Security\Production.sql" />
     <Build Include="Security\Sales.sql" />
     <Build Include="Security\Stats.sql" />
-    <Build Include="Sales\GetCustomerOrders.sql" />
+    <Build Include="Sales\Stored Procedures\GetCustomerOrders.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tsql2012.publish.xml" />
   </ItemGroup>
 </Project>
